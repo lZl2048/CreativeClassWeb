@@ -1,4 +1,13 @@
 // JavaScript Document
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 800) {
+        $('#menu').fadeIn();
+    }
+    else {
+        $('#menu').fadeOut();
+    }
+
+});
 $(document).ready(function(){
 	$('.carousel').carousel({
 		interval: 2000
@@ -16,10 +25,10 @@ function draw1(){
 	text.beginPath();
 	text.moveTo(100,160);
 	text.lineTo(100,100);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();
@@ -34,10 +43,10 @@ function draw2(){
 	text.beginPath();
 	text.moveTo(100,0);
 	text.lineTo(100,60);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();
@@ -52,10 +61,10 @@ function draw3(){
 	text.beginPath();
 	text.moveTo(100,160);
 	text.lineTo(100,100);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();
@@ -70,10 +79,10 @@ function draw4(){
 	text.beginPath();
 	text.moveTo(100,0);
 	text.lineTo(100,60);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();
@@ -88,10 +97,10 @@ function draw5(){
 	text.beginPath();
 	text.moveTo(0,80);
 	text.lineTo(46,80);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();
@@ -106,10 +115,10 @@ function draw6(){
 	text.beginPath();
 	text.moveTo(100,0);
 	text.lineTo(100,60);
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.stroke();
 	text.beginPath();
-	text.strokeStyle="#B2B3B3";
+	text.strokeStyle="#02335b";
 	text.rect(46,60,108,40);
 	text.stroke();
 	text.beginPath();

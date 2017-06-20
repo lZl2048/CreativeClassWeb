@@ -4,6 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
+	margin-top: 5px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/teachers/bannerBg.png") no-repeat scroll center top;
 }
@@ -12,28 +13,29 @@
     display: block;
     margin:auto;
     list-style: none;
-    padding: 377px 0 0;
+    padding: 346px 0 0;
 }
 #headimg ul li{
 	float: left;
     font-size: 15px;
     font-weight: bold;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 55px;
 }
 #headimg ul li:nth-of-type(2){
-	margin-left: 127px;
-	margin-top: -5px !important;
+	margin-left: 108px;
+	margin-top: -2px !important;
 }
 #headimg ul li:nth-of-type(3){
-	margin-left: 117px;
-	margin-top: -9px !important;
+	margin-left: 110px;
+	margin-top: -5px !important;
 }
 #headimg ul li:nth-of-type(4){
-	margin-left: 125px;
-	
+	margin-left: 112px;
+	margin-top: -2px !important;
 }
 #headimg ul li:nth-of-type(5){
-	margin-left: 136px;
+	margin-left: 127px;
+	margin-top: -2px !important;
 }
 #headimg ul li a{
 	color: #95eaff;
@@ -49,52 +51,52 @@
 	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
 	-o-transform:rotate(-7deg); 	/* Opera */
 }
-.separate{
-	background: url(../images/h1Bg.jpg) repeat-x;
-	color: #233f90;
-	height:58px;
-	font-size: 26px;
-	font-weight: bold;
-	line-height: 58px;
-	text-align: center;
-	
-}
+
 #firstimg{
-	height: 543px;
+	height: 465px;
 	text-align: center;
 }
 #secondimg{
-	height: 750px;
+	height: 660px;
 }
 #thirdimg{
 	background-color:#3c3c3c;
 	text-align: center;
 	height: 600px;
 }
-.top{
-	background-color:#3c3c3c;
-	height:58px;
-}
+
 .center{
-	height:58px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+	width: 100%;
+	background: #02335c;
+	height:3px;
+	z-index: -9999;
+}
+.separate{
+	margin: 50px 0px 40px 0px;
+	position: relative;
+	height:50px;
+}
+
+.tl{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+	background-color:#02335c;
+	color: #fff;
+	font-size: 22px;
+	font-weight:bold;
+	border-radius: 15px;
+	margin: auto;
+}
+.tl1{
+	width: 195px;
 }
 .clear{
 	clear:both; height: 0; line-height: 0; font-size: 0;
-}
-.tl{
-	margin-top: 30px;
-	margin-left:45%;
-	text-align: center;
-	height: 60px;
-	line-height: 60px;
-	width: 160px;
-	background-color:#004658;
-	color: #95eaff;
-	font-size: 24px;
-	font-weight:bold;
-	border-radius: 15px;
-	float: left;
-	
 }
 .texts{
 	text-align: left;
@@ -158,22 +160,19 @@
 }
 #compare{
 	margin: 40px auto;
-	width: 1200px;
+	width: 980px;
 	position: relative;
 }
 #Internet{
 	float: left;
-	margin-left: 108px;
 }
 #tradition{
-
-	float: left;
+	float: right;
 }
 #VS{
-	float: left;
-	line-height: 300px;
-	text-align: center;
-	margin: auto 55px auto -40px;
+	position: absolute;
+	top: 130px;
+	left: 48%;
 	font-size: 36px;
 	color: #006475;
 }
